@@ -1,0 +1,27 @@
+<footer class="footer">
+  	<small>
+    	© <%= Date.today.strftime("%Y") %> Kevin Dias
+  	</small>
+    <nav>
+	   	<ul>
+	   	  	<li>
+	   	  		<%= link_to(image_tag("facebook.png"), "https://www.facebook.com/kevin.dias") %>
+	   	  	</li>
+	      	<li>
+	      		<%= link_to(image_tag("twitter.png"), "https://twitter.com/diasks2") %>
+	      	</li>
+	      	<li>
+	      		<%= link_to(image_tag("linkedin.png"), "http://www.linkedin.com/in/kevindias") %>
+	   	  	</li>
+	      	<li>
+	      		<%= link_to(image_tag("github.png"), "https://github.com/diasks2") %>
+	      	</li>
+	      	<li>
+	      		<%= link_to(image_tag("stackoverflow.png"), "http://stackoverflow.com/users/1276696/diasks2") %>
+	      	</li>
+	      	<li>
+	      		<%= mail_to("diasks2@gmail.com", image_tag("email.png")) %>
+	      	</li>
+	    </ul>
+  	</nav>
+</footer>

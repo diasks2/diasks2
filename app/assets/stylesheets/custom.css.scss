@@ -1,0 +1,80 @@
+$navbarHeight: 51px;
+@import "bootstrap";
+
+#logo {
+  float: left;
+  padding-top: 1px;
+  padding-right: 30px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}  
+
+footer a:hover { 
+  color: #222;
+}
+
+footer small {
+  float: left;
+  margin-left:15px;
+}
+
+footer ul {
+  float: right;
+  margin-right:15px;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+.center {
+  text-align: center;
+}
+
+.image_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table td.table_center {
+   text-align: center;   
+}
+
+.table th {
+   text-align: center;   
+}
+
+.circle {
+  border-radius: 50%;
+  border:2px solid black;
+  width: 20px;
+  height: 20px; 
+  float:left;
+}
+
+.logo_margin{
+  margin-top:5px;
+}
+.nav > li > a.logo_pic {
+    display: inline;
+}
