@@ -3,7 +3,7 @@
    	<%= link_to logo, root_path, :id => "logo" %>
     <ul class="nav">
       <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "English CV", root_path %></li>
-      <li class="<%= 'active' if current_page?(japanese_path) %>"><%= link_to "履歴書", japanese_path %></li>
+      <li class="<%= 'active' if current_page?(rirekisho_path) %>"><%= link_to "履歴書", rirekisho_path %></li>
     </ul>
     <ul class="nav pull-right">
       <li><%= link_to(image_tag("bifluent_logo_bw.png", :alt => "BiFluent", :size => "80x40", :class => "logo_margin", :mouseover => "bifluent_logo.png"), "https://www.bifluent.com", :class => "logo_pic") %></li>
