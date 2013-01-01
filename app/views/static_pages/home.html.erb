@@ -1,5 +1,5 @@
 <div class="row">
-  	<div class="span10 offset2">
+  	<div class="span12 offset1">
   		<h4 class="pull-right"><%= Date.today.to_date.to_s(:long) %></h4>
 
 
@@ -12,7 +12,7 @@
 		    	</tr>
 		    	<tr>
 		    		<td>Date of Birth</td>
-		    		<td>January, 9th, 1984 (<%= age(Date.new(1984,1,9)) %> years old)</td>
+		    		<td>January 9th, 1984 (<%= age(Date.new(1984,1,9)) %> years old)</td>
 		    	</tr>
 		     	<tr>
 		    		<td>Email</td>
@@ -26,7 +26,7 @@
 		<table class="table table-hover table-bordered">
 		  	<tbody>
 		    	<tr>
-			      	<td><strong><%= image_tag("wfu_logo.png", :alt => "Wake Forest University Logo") %> <%= link_to "Wake Forest University", "http://www.wfu.edu" %></strong>, Winston-Salem, NC</td>
+			      	<td><strong><%= link_to(image_tag("wfu_logo.png", :alt => "Wake Forest University Logo"), "http://www.wfu.edu") %> <%= link_to "Wake Forest University", "http://www.wfu.edu" %></strong>, Winston-Salem, NC</td>
 			      	<td class="table_right">May 2006</td>
 		    	</tr>
 		    	<tr>
@@ -38,7 +38,7 @@
 			      	</td>
 		    	</tr>
 		    	<tr>
-			      	<td><strong><%= image_tag("kansai_gaidai_logo.png", :alt => "Kansai Gaidai University Logo") %> <%= link_to "Kansai Gaidai University", "http://www.kansaigaidai.ac.jp" %></strong>, Hirakata-Shi, Japan</td>
+			      	<td><strong><%= link_to(image_tag("kansai_gaidai_logo.png", :alt => "Kansai Gaidai University Logo"), "http://www.kansaigaidai.ac.jp") %> <%= link_to "Kansai Gaidai University", "http://www.kansaigaidai.ac.jp" %></strong>, Hirakata-Shi, Japan</td>
 			      	<td class="table_right">August 2004 – June 2005</td>
 		    	</tr>
 		    	<tr>
@@ -55,28 +55,108 @@
 		<table class="table table-hover table-bordered">
 		  	<tbody>
 		    	<tr>
+			      	<td><%= link_to(image_tag("aeon_logo.png", :alt => "AEON Corporation Logo"), "http://www.aeonet.co.jp") %></td>
+			      	<td><%= link_to "AEON Corporation,", "http://www.aeonet.co.jp" %> Tokyo, Japan</td>
+
+			      	<td>English Teacher</td>
+			      	<td>October 2008 – October 2012<br> (4 years)</td>
+		    	</tr>
+		    	<tr>
+			      	<td colspan="4">
+			      		<ul>
+			      			<li>
+			      				Taught English to students of all levels and ages, including businessmen and businesswomen
+			      			</li>
+			      			<li>
+			      				Designed and created a <%= link_to "fully-functioning student database", "#", :class => "video_play", :remote => true %> using Java programming language in order to:
+			      			</li>	
+			      			<ul>
+			      				<li>
+									Centralize and institutionalize all student data
+								</li>
+								<li>	
+									Help teachers provide better student care
+								</li>	
+								<li>
+									Create a multi-lingual, user-friendly system for both the foreign and Japanese staff
+								</li>
+							</ul>
+							<li>
+								Created an <%= link_to "online web application", "https://github.com/diasks2/sd_web" %>, written in Ruby on Rails, to help AEON manage student progress for their "Self-Study" program
+							</li>	
+							<li>
+								Designed and marketed several new special courses based on my business experience
+							</li>	
+							<ul>
+			      				<li>
+									Prominence of these new business courses helped us to reach our school revenue targets
+								</li>
+							</ul>
+							<li>
+								Featured teacher in “Self-Study” marketing brochure distributed nationwide due to my
+							</li>
+							<ul>
+								<li>
+									Popularity with students and reputation within AEON Corporation
+								</li>	
+								<li>
+									Sales results for the past “Self-Study” programs (Top 10 throughout Japan for 2 consecutive programs)
+								</li>
+							</ul>		
+						</ul>		
+			      	</td>
+		    	</tr>
+		    	<tr>
+			      	<td><%= link_to(image_tag("pnc_logo.png", :alt => "PNC Bank Logo"), "https://www.pnc.com") %></td>
 			      	<td><%= link_to "PNC Capital Markets", "https://www.pnc.com/webapp/unsec/ProductsAndService.do?siteArea=/pnccorp/PNC/Home/Corporate+and+Institutional/Capital+Markets/Asset-Backed+Securities/Asset-Backed+Securities" %> Asset-Backed Securitization Group, Charlotte, NC</td>
 
 			      	<td>Investment Banking Analyst</td>
 			      	<td>June 2006 – July 2008<br> (2 years 2 months)</td>
 		    	</tr>
 		    	<tr>
-			      	<td colspan="3">
-			      		• Part of team responsible for the structuring of all securitized products originated by PNC
-						• Experience modeling auto, credit card and corporate loan structured products
-• Supported the development and expansion of PNC’s proprietary cash flow modeling system
-• Helped develop, maintain and update PNC’s proprietary data warehouse
- Worked with members of the origination team to develop pitch books, prepare term sheets and present
-detailed analysis to PNC’s internal credit group
-• Responsible for analyzing and pricing PNC’s structured product transactions
-• Designed and wrote proprietary program to automate process of marking-to-market all conduit
-facilities on a monthly basis
- Actively involved in all aspects of new analyst and intern recruiting efforts
- Designed first summer internship program for the asset-backed securitization group
- Mentor junior analysts and interns on the underwriting, structuring, and marketing of asset-backed
-transactions as well as PNC’s policies and procedures
-• Responsible for the on-going surveillance of origination team’s portfolio
-• Assisted in review of legal documentation for credit facilities extended by PNC
+			      	<td colspan="4">
+			      		<ul>
+			      			<li>
+			      				Part of team responsible for the structuring of all securitized products originated by PNC
+			      			</li>
+			      			<ul>
+			      				<li>
+									Experience modeling auto, credit card and corporate loan structured products
+								</li>
+								<li>	
+									Supported the development and expansion of PNC’s proprietary cash flow modeling system
+								</li>	
+								<li>
+									Helped develop, maintain and update PNC’s proprietary data warehouse
+								</li>
+							</ul>
+							<li>
+								Worked with members of the origination team to develop pitch books, prepare term sheets and present detailed analysis to PNC’s internal credit group
+							</li>	
+							<li>
+								Responsible for analyzing and pricing PNC’s structured product transactions
+							</li>
+							<ul>
+								<li>
+									Designed and wrote proprietary program to automate process of marking-to-market all conduit facilities on a monthly basis
+								</li>
+							</ul>		
+							<li>
+								Actively involved in all aspects of new analyst and intern recruiting efforts
+							</li>
+							<li>
+								Designed first summer internship program for the asset-backed securitization group
+							</li>	
+							<li>
+								Mentor junior analysts and interns on the underwriting, structuring, and marketing of asset-backed transactions as well as PNC’s policies and procedures
+							</li>	
+							<li>
+								Responsible for the on-going surveillance of origination team’s portfolio
+							</li>
+							<li>
+								Assisted in review of legal documentation for credit facilities extended by PNC
+							</li>
+						</ul>		
 			      	</td>
 		    	</tr>
 		  	</tbody>
@@ -85,11 +165,24 @@ transactions as well as PNC’s policies and procedures
 	<h2>Skills</h2>
 	Ruby on Rails
 	<div class="progress">
-  		<div class="bar" style="width: 80%;"></div>
+  		<div class="bar" style="width: 90%;"></div>
 	</div>	
+	JavaScript / jQuery
+	<div class="progress">
+  		<div class="bar" style="width: 75%;"></div>
+	</div>
+	HTML5 / CSS3
+	<div class="progress">
+  		<div class="bar" style="width: 90%;"></div>
+	</div>
 	Japanese (JLPT Level N3)
 	<div class="progress">
   		<div class="bar" style="width: 60%;"></div>
 	</div>
 	</div>
 </div>		
+
+<div id="modal-from-dom" class="modal fade video_modal"></div>
+<script type="text/html" id="modal_contents">
+  <iframe width="640" height="480" src="https://www.youtube.com/embed/bPlvT5VRlP4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+</script>

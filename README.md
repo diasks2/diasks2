@@ -3,7 +3,7 @@
 Profiles:
 Stack Overflow: http://stackoverflow.com/users/1276696/diasks2  
 GitHub: https://github.com/diasks2  
-LinkedIn: jp.linkedin.com/in/kevindias/  
+LinkedIn: http://www.linkedin.com/in/kevindias  
 Facebook: https://www.facebook.com/kevin.dias  
 Twitter: https://twitter.com/diasks2  
 
