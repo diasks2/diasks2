@@ -60,6 +60,11 @@ html {
    text-align: center;   
 }
 
+
+.table td.table_right {
+   text-align: right;   
+}
+
 .table th {
    text-align: center;   
 }
@@ -77,4 +82,8 @@ html {
 }
 .nav > li > a.logo_pic {
     display: inline;
+}
+
+.main_pic{
+  margin-top:5px;
 }

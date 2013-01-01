@@ -1,1 +1,95 @@
-<%= image_tag("kevin_dias.png", :alt => "Kevin Dias", :class=> "img-circle", :size => "100x100") %>
+<div class="row">
+  	<div class="span10 offset2">
+  		<h4 class="pull-right"><%= Date.today.to_date.to_s(:long) %></h4>
+
+
+
+	<table class="table table-bordered">
+		  	<tbody>
+		    	<tr>
+			      	<td colspan="2"><h1>Kevin Scott Dias</h1></td>
+			      	<td rowspan="3" class="table_center"><%= image_tag("kevin_dias.png", :alt => "Kevin Dias", :class=> "img-circle main_pic", :size => "125x125") %></td>
+		    	</tr>
+		    	<tr>
+		    		<td>Date of Birth</td>
+		    		<td>January, 9th, 1984 (<%= age(Date.new(1984,1,9)) %> years old)</td>
+		    	</tr>
+		     	<tr>
+		    		<td>Email</td>
+		    		<td><%= mail_to "diasks2@gmail.com", "diasks2@gmail.com" %></td>
+		    	</tr>
+		  	</tbody>
+		</table>	
+
+
+<h2>Education</h2>
+		<table class="table table-hover table-bordered">
+		  	<tbody>
+		    	<tr>
+			      	<td><strong><%= image_tag("wfu_logo.png", :alt => "Wake Forest University Logo") %> <%= link_to "Wake Forest University", "http://www.wfu.edu" %></strong>, Winston-Salem, NC</td>
+			      	<td class="table_right">May 2006</td>
+		    	</tr>
+		    	<tr>
+			      	<td colspan="2">
+			      		<em>Wayne Calloway School of Business and Accountancy</em><br>
+						Bachelor of Science in Business, Minor in International Studies<br>
+						Cumulative GPA: 3.5; Cum Laude; Dean’s List all semesters<br>
+						Thomas H. Davis Business Scholarship Recipient<br>
+			      	</td>
+		    	</tr>
+		    	<tr>
+			      	<td><strong><%= image_tag("kansai_gaidai_logo.png", :alt => "Kansai Gaidai University Logo") %> <%= link_to "Kansai Gaidai University", "http://www.kansaigaidai.ac.jp" %></strong>, Hirakata-Shi, Japan</td>
+			      	<td class="table_right">August 2004 – June 2005</td>
+		    	</tr>
+		    	<tr>
+			      	<td colspan="2">
+			      		One year study abroad program<br>
+			      		Focus on international business and Japanese language classes<br>
+			      	</td>
+		    	</tr>
+		  	</tbody>
+		</table>
+
+
+<h2>Work Experience</h2>
+		<table class="table table-hover table-bordered">
+		  	<tbody>
+		    	<tr>
+			      	<td><%= link_to "PNC Capital Markets", "https://www.pnc.com/webapp/unsec/ProductsAndService.do?siteArea=/pnccorp/PNC/Home/Corporate+and+Institutional/Capital+Markets/Asset-Backed+Securities/Asset-Backed+Securities" %> Asset-Backed Securitization Group, Charlotte, NC</td>
+
+			      	<td>Investment Banking Analyst</td>
+			      	<td>June 2006 – July 2008<br> (2 years 2 months)</td>
+		    	</tr>
+		    	<tr>
+			      	<td colspan="3">
+			      		• Part of team responsible for the structuring of all securitized products originated by PNC
+						• Experience modeling auto, credit card and corporate loan structured products
+• Supported the development and expansion of PNC’s proprietary cash flow modeling system
+• Helped develop, maintain and update PNC’s proprietary data warehouse
+ Worked with members of the origination team to develop pitch books, prepare term sheets and present
+detailed analysis to PNC’s internal credit group
+• Responsible for analyzing and pricing PNC’s structured product transactions
+• Designed and wrote proprietary program to automate process of marking-to-market all conduit
+facilities on a monthly basis
+ Actively involved in all aspects of new analyst and intern recruiting efforts
+ Designed first summer internship program for the asset-backed securitization group
+ Mentor junior analysts and interns on the underwriting, structuring, and marketing of asset-backed
+transactions as well as PNC’s policies and procedures
+• Responsible for the on-going surveillance of origination team’s portfolio
+• Assisted in review of legal documentation for credit facilities extended by PNC
+			      	</td>
+		    	</tr>
+		  	</tbody>
+		</table>
+
+	<h2>Skills</h2>
+	Ruby on Rails
+	<div class="progress">
+  		<div class="bar" style="width: 80%;"></div>
+	</div>	
+	Japanese (JLPT Level N3)
+	<div class="progress">
+  		<div class="bar" style="width: 60%;"></div>
+	</div>
+	</div>
+</div>		
