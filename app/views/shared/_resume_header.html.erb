@@ -1,0 +1,17 @@
+<h4 class="pull-right"><%= Date.today.to_date.to_s(:long) %></h4>
+<table class="table table-bordered">
+  	<tbody>
+    	<tr>
+	      	<td colspan="2"><h1>Kevin Scott Dias</h1></td>
+	      	<td rowspan="3" class="table_center"><%= image_tag("kevin_dias.png", :alt => "Kevin Dias", :class=> "img-circle main_pic", :size => "125x125") %></td>
+    	</tr>
+    	<tr>
+    		<td>Date of Birth</td>
+    		<td>January 9th, 1984 (<%= age(Date.new(1984,1,9)) %> years old)</td>
+    	</tr>
+     	<tr>
+    		<td>Email</td>
+    		<td><%= mail_to "diasks2@gmail.com", "diasks2@gmail.com" %></td>
+    	</tr>
+  	</tbody>
+</table>	
