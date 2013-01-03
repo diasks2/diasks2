@@ -1,15 +1,16 @@
-<div class="row">
-  	<div class="span12 offset1">
-		<%= render 'shared/resume_header' %>
-		<%= render 'shared/education' %>
-	 	<%= render 'shared/work_experience' %>
-	 	<%= render 'shared/skills' %>
-	 	<%= render 'shared/consulting' %>
-	 	<%= render 'shared/clubs' %>
-	</div>
-</div>		
-
-<div id="modal-from-dom" class="modal fade video_modal"></div>
-<script type="text/html" id="modal_contents">
-  <iframe width="640" height="480" src="https://www.youtube.com/embed/bPlvT5VRlP4?autoplay=1" frameborder="0" allowfullscreen></iframe>
-</script>
+<div class="background_home">
+	<div class="image_center" id="image_container">
+		<%= image_tag("k_dias_background.png", :alt => "Kevin Dias", :class => "img-rounded") %>
+		<div class="well_dark" id="inner_a">
+			<h2 class="center">Kevin Dias</h2>
+			<h4 class="center">An experienced problem-solver.</h4>
+			I'm an independent Ruby on Rails developer based in Tochigi, Japan, offering development and business consultancy services.
+			<br>
+			<br>
+			I've developed a wide range of applications and sites including a <%= link_to "language acquisition", "https://www.bifluent.com" %> application, various financial and portfolio management applications, a wedding planning application, and an <%= link_to "interior design", "http://www.onefourteenbailey.com" %> site.
+			<br>
+			<br>
+			<%= mail_to "diasks2@gmail.com", "Get in touch", :subject => "Interest in making a web application" %> and let's talk about making your idea for a web application a reality.
+		</div>
+	</div>	
+</div>

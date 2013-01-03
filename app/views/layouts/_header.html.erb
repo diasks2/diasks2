@@ -2,7 +2,8 @@
   <div class="navbar-inner">
    	<%= link_to logo, root_path, :id => "logo" %>
     <ul class="nav">
-      <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "English CV", root_path %></li>
+      <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "Home", root_path %></li>
+      <li class="<%= 'active' if current_page?(cv_path) %>"><%= link_to "English CV", cv_path %></li>
       <li class="<%= 'active' if current_page?(rirekisho_path) %>"><%= link_to "履歴書", rirekisho_path %></li>
     </ul>
 <%
