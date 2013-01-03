@@ -65,8 +65,33 @@ Investment Banking Analyst (June 2006 – July 2008)
 * Responsible for the on-going surveillance of origination team’s portfolio
 Assisted in review of legal documentation for credit facilities extended by PNC  
 
+## Skills
 
+* Ruby on Rails  
+* JavaScript / jQuery  
+* HTML5 / CSS3  
+* Adobe Photoshop / Illustrator  
+* Microsoft Office (Excel, Word, PowerPoint, Access)  
+* PostgreSQL / SQLite  
+* Japanese (JLPT Level N3)  
 
+## Side Projects / Consulting
+
+**Wedding App**	(September 2012)  
+* Created a multi-lingual Ruby on Rails web app to help a client manage guests for an international wedding.  
+
+**Interior Design Website**	(December 2012)  
+* Created an interior design website for One Fourteen Bailey  
+
+## Clubs and Hobbies
+
+**Wake Forest in Japan** Alumni Club (January 2011 - Present)  
+* Help manage all aspects of the club including the planning of events, member recruitment, as well as the clubs social media channels  
+* Applied for and won $500 Innovation Fund grant from the Wake Forest University Alumni Council Innovation Fund Selection Committee  
+
+**Cycling**	(2000 – Present)  
+* Typically ride 2000km+ per year  
+* In 2012 competed in the Tour de Nikko, Tour de Gunma - Uenomura Hill Climb, Utsunomiya Cycle Picnic and the Nasukougen Longride  
 
 **Profiles:**  
 Stack Overflow: http://stackoverflow.com/users/1276696/diasks2  
