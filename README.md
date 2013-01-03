@@ -78,7 +78,7 @@ Assisted in review of legal documentation for credit facilities extended by PNC
 ## Side Projects / Consulting
 
 **Wedding App**	(September 2012)  
-* Created a multi-lingual Ruby on Rails web app to help a client manage guests for an international wedding.  
+* Created a multi-lingual Ruby on Rails web app to help a client manage guests for an international wedding  
 
 **Interior Design Website**	(December 2012)  
 * Created an interior design website for One Fourteen Bailey  
