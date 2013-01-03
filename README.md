@@ -5,27 +5,27 @@ Email: <mailto:diasks2@gmail.com>
 
 ## Education
 
-**Wake Forest University**, Winston-Salem, NC (*May 2006*)  
+**Wake Forest University**, Winston-Salem, NC (*May* *2006*)  
 Wayne Calloway School of Business and Accountancy  
 Bachelor of Science in Business, Minor in International Studies  
 Cumulative GPA: 3.5; Cum Laude; Dean’s List all semesters  
 Thomas H. Davis Business Scholarship Recipient  
 
-**Kansai Gaidai University**, Hirakata-Shi, Japan (*August 2004 – June 2005*)  
+**Kansai Gaidai University**, Hirakata-Shi, Japan (*August* *2004* – *June* *2005*)  
 One year study abroad program  
 Focus on international business and Japanese language classes  
 
 ## Work Experience
 
 **BiFluent**, Tokyo, Japan	
-Co-Founder (*September 2012 – Present*)  
+Co-Founder (*September 2012* – *Present*)  
 * Launched company and recruited 2 co-founders  
 * Built BiFluent web application using Ruby on Rails and JavaScript/jQuery  
 * Pitched business at Innovation Weekend Grand Finale 2012  
 * Developed Vocabulary Coverage Ratio concept and corresponding tool for assessing one's true vocabulary level  
 
 **Putter King**, Tokyo, Japan  
-Founder	(*December 2010 – Present*)  
+Founder	(*December 2010* – *Present*)  
 * Raised ¥4,000,000 in initial capital and founded company in December 2010  
 * Developed and released Putter King Adventure Golf app for iOS and Android  
 * Designed and launched website (www.putterking.com)  
@@ -37,7 +37,7 @@ Awarded 3rd place in the ʻBest Sports Gameʼ category of the 2011 Best App Ever
 * Built a strong social media following among miniature golf enthusiasts (Putter King Facebook | Putter King Twitter)  
 
 **AEON Corporation**, Tokyo, Japan  
-English Teacher	(*October 2008 – October 2012*)  
+English Teacher	(*October 2008* – *October 2012*)  
 Taught English to students of all levels and ages, including businessmen and businesswomen
 Designed and created a fully-functioning student database (watch video) using the Java programming language in order to:
 Centralize and institutionalize all student data
