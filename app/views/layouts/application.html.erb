@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kevin Scott Dias Curriculum Vitae (CV)</title>
-  <meta name="description" content="Kevin Scott Dias Curriculum Vitae (CV)" />
-  <meta name="keywords" content="Kevin Scott Dias, CV, Resume" />
+  <title><%= full_title(yield(:title)) %></title>
+  <meta name="description" content="<%= description(yield(:description)) %>" />
+  <meta name="keywords" content="<%= keywords(yield(:keywords)) %>" />
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
