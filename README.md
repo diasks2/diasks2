@@ -8,7 +8,7 @@ Email: <mailto:diasks2@gmail.com>
 **Wake Forest University**, Winston-Salem, NC (May 2006)  
 Wayne Calloway School of Business and Accountancy  
 Bachelor of Science in Business, Minor in International Studies  
-Cumulative GPA: 3.5; Cum Laude; Dean’s List all semesters  
+Cum Laude; Dean’s List all semesters  
 Thomas H. Davis Business Scholarship Recipient  
 
 **Kansai Gaidai University**, Hirakata-Shi, Japan (August 2004 – June 2005)  
