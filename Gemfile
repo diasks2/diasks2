@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '~> 2.2.1.1'
-gem 'd3_rails'
 gem 'honeybadger'
 
 group :development, :test do
