@@ -5,125 +5,127 @@
 <div class="row">
   	<div class="col-md-10 col-md-offset-1">
   		<h4 class="pull-right">平成25年<%= Date.today.strftime("%m") %>月<%= Date.today.strftime("%d") %>日</h4>
-		<table class="table table-bordered">
-		  	<tbody>
-		    	<tr>
-			      	<td><strong>名前</strong></td>
-			      	<td>ディアス・ケビン・エス</td>
-			      	<td class="table_center"><div class="circle"><strong>男</strong></div>・女</td>
-			      	<td rowspan="4" class="table_center"><%= image_tag("kevin_dias_business.png", :alt => "Kevin Dias", :class=> "img-polaroid", :size => "125x125") %></td>
-		    	</tr>
-		    	<tr>
-		    		<td></td>
-		      		<td colspan="2">Kevin Scott Dias</td>
-		    	</tr>
-		     	<tr>
-		      		<td><strong>生年月日</strong></td>
-		      		<td colspan="2">昭和59年01月09日生まれ（満<%= age(Date.new(1984,1,9)) %>歳）</td>
-		    	</tr>
-		    	<tr>
-		      		<td><strong>Ｅメール</strong></td>
-		      		<td colspan="2"><%= mail_to "diasks2@gmail.com", "diasks2@gmail.com" %></td>
-		    	</tr>
-		  	</tbody>
-		</table>
-		<table class="table table-hover table-bordered">
-			<thead>
-		    	<tr>
-		      		<th>年</th>
-		      		<th>月</th>
-		      		<th>学歴・職歴</th>
-		    	</tr>
-		  	</thead>
-		  	<tbody>
-		    	<tr>
-			      	<td></td>
-			      	<td></td>
-			      	<td class="table_center">学歴</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成10年</td>
-		      		<td>9月</td>
-		      		<td><%= link_to "マウントグレイロックリージョナル高校", "http://www.mgrhs.org" %>入学</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成14年</td>
-		      		<td>6月</td>
-		      		<td><%= link_to "マウントグレイロックリージョナル高校", "http://www.mgrhs.org" %>卒業</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成14年</td>
-		      		<td>9月</td>
-		      		<td><%= link_to "ウェイクフォレスト大学", "http://www.wfu.edu" %>入学</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成16年</td>
-		      		<td>9月</td>
-		      		<td><%= link_to "関西外国語大学", "http://www.kansaigaidai.ac.jp" %>留学（1年間）</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成18年</td>
-		      		<td>5月</td>
-		      		<td><%= link_to "ウェイクフォレスト大学", "http://www.wfu.edu" %>卒業（理学士：優等）</td>
-		    	</tr>
-		    	<tr>
-			      	<td></td>
-			      	<td></td>
-			      	<td class="table_center">職歴</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成18年</td>
-		      		<td>6月</td>
-		      		<td><%= link_to "PNCキャピタル·マーケッツ株式会社", "https://www.pnc.com/webapp/unsec/ProductsAndService.do?siteArea=/pnccorp/PNC/Home/Corporate+and+Institutional/Capital+Markets/Asset-Backed+Securities/Asset-Backed+Securities" %>　投資銀行アナリスト</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成20年</td>
-		      		<td>7月</td>
-		      		<td>一身上の都合により退社</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成20年</td>
-		      		<td>10月</td>
-		      		<td><%= link_to "株式会社イーオン・イースト・ジャパン", "http://www.aeonet.co.jp"  %>　教師として就職</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成22年</td>
-		      		<td>12月</td>
-		      		<td><%= link_to "パターキング合同会社", "http://www.putterking.com"  %>設立　代表社員</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成24年</td>
-		      		<td>9月</td>
-		      		<td>パターキング合同会社から<%= link_to "バイフルーエント合同会社", "https://www.bifluent.com"  %>へ名義変更</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成24年</td>
-		      		<td>10月</td>
-		      		<td>株式会社イーオン・イースト・ジャパン退社</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成25年</td>
-		      		<td>3月</td>
-		      		<td><%= link_to "さくらSEI-英語型保育園", "http://www.sakura-sei.ed.jp"  %>　教師として就職</td>
-		    	</tr>
-		    	<tr>
-			      	<td></td>
-			      	<td></td>
-			      	<td class="table_center">免許資格</td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成21年</td>
-		      		<td>8月</td>
-		      		<td>日本の運転免許を取得 </td>
-		    	</tr>
-		    	<tr>
-		      		<td>平成24年</td>
-		      		<td>7月</td>
-		      		<td><%= link_to "日本語能力試験", "http://www.jlpt.jp/e/" %> レベルＮ３合格</td>
-		    	</tr>
-		    	
-		    	
-		  	</tbody>
-		</table>
+  		<div class="table-responsive">
+			<table class="table table-bordered">
+			  	<tbody>
+			    	<tr>
+				      	<td><strong>名前</strong></td>
+				      	<td>ディアス・ケビン・エス</td>
+				      	<td class="table_center"><div class="circle"><strong>男</strong></div>・女</td>
+				      	<td rowspan="4" class="table_center"><%= image_tag("kevin_dias_business.png", :alt => "Kevin Dias", :class=> "img-polaroid", :size => "125x125") %></td>
+			    	</tr>
+			    	<tr>
+			    		<td></td>
+			      		<td colspan="2">Kevin Scott Dias</td>
+			    	</tr>
+			     	<tr>
+			      		<td><strong>生年月日</strong></td>
+			      		<td colspan="2">昭和59年01月09日生まれ（満<%= age(Date.new(1984,1,9)) %>歳）</td>
+			    	</tr>
+			    	<tr>
+			      		<td><strong>Ｅメール</strong></td>
+			      		<td colspan="2"><%= mail_to "diasks2@gmail.com", "diasks2@gmail.com" %></td>
+			    	</tr>
+			  	</tbody>
+			</table>
+			<table class="table table-hover table-bordered">
+				<thead>
+			    	<tr>
+			      		<th>年</th>
+			      		<th>月</th>
+			      		<th>学歴・職歴</th>
+			    	</tr>
+			  	</thead>
+			  	<tbody>
+			    	<tr>
+				      	<td></td>
+				      	<td></td>
+				      	<td class="table_center">学歴</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成10年</td>
+			      		<td>9月</td>
+			      		<td><%= link_to "マウントグレイロックリージョナル高校", "http://www.mgrhs.org" %>入学</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成14年</td>
+			      		<td>6月</td>
+			      		<td><%= link_to "マウントグレイロックリージョナル高校", "http://www.mgrhs.org" %>卒業</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成14年</td>
+			      		<td>9月</td>
+			      		<td><%= link_to "ウェイクフォレスト大学", "http://www.wfu.edu" %>入学</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成16年</td>
+			      		<td>9月</td>
+			      		<td><%= link_to "関西外国語大学", "http://www.kansaigaidai.ac.jp" %>留学（1年間）</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成18年</td>
+			      		<td>5月</td>
+			      		<td><%= link_to "ウェイクフォレスト大学", "http://www.wfu.edu" %>卒業（理学士：優等）</td>
+			    	</tr>
+			    	<tr>
+				      	<td></td>
+				      	<td></td>
+				      	<td class="table_center">職歴</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成18年</td>
+			      		<td>6月</td>
+			      		<td><%= link_to "PNCキャピタル·マーケッツ株式会社", "https://www.pnc.com/webapp/unsec/ProductsAndService.do?siteArea=/pnccorp/PNC/Home/Corporate+and+Institutional/Capital+Markets/Asset-Backed+Securities/Asset-Backed+Securities" %>　投資銀行アナリスト</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成20年</td>
+			      		<td>7月</td>
+			      		<td>一身上の都合により退社</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成20年</td>
+			      		<td>10月</td>
+			      		<td><%= link_to "株式会社イーオン・イースト・ジャパン", "http://www.aeonet.co.jp"  %>　教師として就職</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成22年</td>
+			      		<td>12月</td>
+			      		<td><%= link_to "パターキング合同会社", "http://www.putterking.com"  %>設立　代表社員</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成24年</td>
+			      		<td>9月</td>
+			      		<td>パターキング合同会社から<%= link_to "バイフルーエント合同会社", "https://www.bifluent.com"  %>へ名義変更</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成24年</td>
+			      		<td>10月</td>
+			      		<td>株式会社イーオン・イースト・ジャパン退社</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成25年</td>
+			      		<td>3月</td>
+			      		<td><%= link_to "さくらSEI-英語型保育園", "http://www.sakura-sei.ed.jp"  %>　教師として就職</td>
+			    	</tr>
+			    	<tr>
+				      	<td></td>
+				      	<td></td>
+				      	<td class="table_center">免許資格</td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成21年</td>
+			      		<td>8月</td>
+			      		<td>日本の運転免許を取得 </td>
+			    	</tr>
+			    	<tr>
+			      		<td>平成24年</td>
+			      		<td>7月</td>
+			      		<td><%= link_to "日本語能力試験", "http://www.jlpt.jp/e/" %> レベルＮ３合格</td>
+			    	</tr>
+			    	
+			    	
+			  	</tbody>
+			</table>
+		</div>	
 	</div>
 </div>
