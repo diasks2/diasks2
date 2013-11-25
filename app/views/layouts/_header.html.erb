@@ -1,11 +1,21 @@
-<div class="navbar navbar-static-top">
-  <div class="navbar-inner">
-   	<%= link_to logo, root_path, :id => "logo" %>
-    <ul class="nav">
-      <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "Home", root_path %></li>
-      <li class="<%= 'active' if current_page?(cv_path) %>"><%= link_to "English CV", cv_path %></li>
-      <li class="<%= 'active' if current_page?(rirekisho_path) %>"><%= link_to "履歴書", rirekisho_path %></li>
-    </ul>   
+<nav class="navbar navbar-default" role="navigation">
+
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <%= link_to logo, root_path, :id => "logo" %>
   </div>
-</div>
+
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="<%= 'active' if current_page?(root_path) %>"><%= link_to "Home", root_path %></li>
+      	<li class="<%= 'active' if current_page?(cv_path) %>"><%= link_to "English CV", cv_path %></li>
+      	<li class="<%= 'active' if current_page?(rirekisho_path) %>"><%= link_to "履歴書", rirekisho_path %></li>
+      </ul>
+  </div>
+</nav>
 

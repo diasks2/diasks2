@@ -5,18 +5,17 @@
   <meta name="description" content="<%= description(yield(:description)) %>" />
   <meta name="keywords" content="<%= keywords(yield(:keywords)) %>" />
   <meta name="google-site-verification" content="tHsn07TPqovM5nwfvacyKo7nHpbubl6yiLQ4eKMAr6g" />
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 	 <%= render 'layouts/header' %>
     <div class="container">
-     
   	  <%= yield %>
       <%= render 'layouts/footer' %>
     </div>  
-  
 </body>
 </html>
 <script type="text/javascript">
