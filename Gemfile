@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
-gem 'rails', '~> 4.0.2'
+ruby '2.1.1'
+gem 'rails', '~> 4.0.4'
 gem 'bootstrap-sass', :github => 'thomas-mcdonald/bootstrap-sass'
 
 group :development, :test do
